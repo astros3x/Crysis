@@ -20,7 +20,7 @@
 
 ## About
 Crysis is a discord nuker written entirely in python. It has bot and user token raid features and also self-bots. The GUI enables a more intuitive and aesthetic use.
-
+--------------------------------------
 > [!NOTE]
 > Features:
 > - Grafic User Interface
@@ -36,9 +36,9 @@ Crysis is a discord nuker written entirely in python. It has bot and user token 
 > - Token raider (next update)
 > - Selfbot (next update)
 > - Other features soon...
-
+--------------------------------------
 > [!IMPORTANT]
 > Use of discord nuker with bot requires admin permissions.
- 
+ --------------------------------------
 > [!CAUTION]
 > The developer and contributors are not responsible for any misuse of this software.
