@@ -10,7 +10,7 @@
      `6666L %  ?666   ! .d666L .+     666E  666I   @6Wou 9%    666E    @6Wou 9%
       `6666  `-*""   /  ^"6666*"     x666N><666' .666666P`     666&  .666666P`
         "666.      :"     "Y"        "66"  666  `   ^"F       R666" `   ^"F
-          `""***~"`                        66F                 "" |  v1.0.0
+          `""***~"`                        66F                 "" | v1.0.0
                                           96"
                                         ./"
                                        ~`
@@ -19,3 +19,26 @@
 ```
 
 ## About
+Crysis is a discord nuker written entirely in python. It has bot and user token raid features and also self-bots. The GUI enables a more intuitive and aesthetic use.
+
+> [!NOTE]
+> Features:
+> - Grafic User Interface
+> - Proxy scraper to prevent any discord rate-limit
+> - Custom proxy system (next update)
+> - Bot raider
+>   - Message spammer
+>   - Channels manager
+>   - Roles manageger
+>   - Fullnuker function
+>   - Server personalization
+>   - Backup server (channels, roles and webhooks)
+> - Token raider (next update)
+> - Selfbot (next update)
+> - Other features soon...
+
+> [!IMPORTANT]
+> Use of discord nuker with bot requires admin permissions.
+ 
+> [!CAUTION]
+> The developer and contributors are not responsible for any misuse of this software.
