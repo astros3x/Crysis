@@ -15,7 +15,7 @@
                                         ./"
                                        ~`
 
-      Discord Nuker  |  Bot raider  |  Token raider  |  Self-Bot  |  by AstriDevs                                                                    
+      Discord Nuker  |  Bot raider  |  Token raider  |  Self-Bot  |  by AstriDevs
 ```
 
 ## About
