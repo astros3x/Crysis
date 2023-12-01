@@ -1,4 +1,4 @@
-'''
+```
       ...                                     .x+=:.      .       .x+=:.   
    xH66"`~ .x6X                 ..             z`    ^%    @66>    z`    ^%  
  :6666   .f"6666Hf  .u    .    @L                 .   <k   %6P        .   <k 
@@ -16,6 +16,6 @@ X6666  X666h     ="6666f6666r `Y666k:*666.  .@^%6666"   .@66u   .@^%6666"
                                   ~`              
 
  Discord Nuker  |  Bot raider  |  Token raider  |  Self-Bot  |  by AstriDevs                                                                    
-'''
+```
 
 ## About
