@@ -36,6 +36,7 @@
 > - Token raider (next update)
 > - Selfbot (next update)
 > - Other features soon...
+
 > [!IMPORTANT]
 > Use of discord nuker with bot requires admin permissions.
  --------------------------------------
