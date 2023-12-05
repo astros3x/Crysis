@@ -38,7 +38,12 @@
 > - Other features soon...
 
 > [!IMPORTANT]
-> Use of discord nuker with bot requires admin permissions.
+> **FAQs**:
+> - Use of discord nuker with bot requires admin permissions.
+> - If you need help with the software check the discord server.
+> - How to join crysis discord server:
+>   - Get a license key.
+>   - Dm crysis discord bot using ?auth <token>.
  --------------------------------------
 > [!CAUTION]
 > The developer and contributors are not responsible for any misuse of this software.
