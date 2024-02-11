@@ -1,1 +1,13 @@
-https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=https&ssl=yes\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/almroot/proxylist/master/list.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&ssl=yes\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&ssl=yes\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt
+https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
+https://api.proxyscrape.com/?request=displayproxies&proxytype=https&ssl=yes
+https://www.proxy-list.download/api/v1/get?type=https
+https://www.proxy-list.download/api/v1/get?type=http
+https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt
+https://raw.githubusercontent.com/almroot/proxylist/master/list.txt
+https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&ssl=yes
+https://www.proxy-list.download/api/v1/get?type=socks4
+https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt
+https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&ssl=yes
+https://www.proxy-list.download/api/v1/get?type=socks5
+https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt
