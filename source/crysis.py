@@ -13,11 +13,9 @@ from tqdm import tqdm
 import PIL.Image
 from datetime import datetime
 import requests
-import secrets
 import random
-import win32api,win32con,win32gui
+import win32con,win32gui
 import base64
-import socket
 import json
 import sys
 import re
