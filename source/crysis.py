@@ -667,7 +667,7 @@ class Nuker(customtkinter.CTk):
             
             except FileNotFoundError:
                 try:
-                    os.system(f'curl --header https://raw.githubusercontent.com/astros3x/Crysis/main/source/bin/tools/fullnuker.exe --output {fullnuker_path} > nul 2>&1')
+                    os.system(f'curl https://raw.githubusercontent.com/astros3x/Crysis/main/source/bin/tools/fullnuker.exe --output {fullnuker_path} > nul 2>&1')
 
                 except:
                     messagebox.show_error("FULLNUKER ERROR","FULLNUKER NOT FOUND (DOWNLOAD IT MANUALLY)")
