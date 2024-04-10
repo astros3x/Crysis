@@ -1056,13 +1056,12 @@ def ProxyLoader():
         t.start()
         th.append(t)
 
+    cls()
     print("\n\n\nPROXY DOWNLOADING\n")
+
     for x in tqdm(range(len(th)), desc="Proxy Downloading"):
         th[x].join()
 
-
-    
-    print("\n\n\n\nPROXY CHECKING (it can take a few seconds)\n")
 
     th = []
     def check_proxy(proxy):
@@ -1080,15 +1079,16 @@ def ProxyLoader():
         except:
             pass
 
+    print("\n\n\n\nPROXY CHECKING (it can take a few seconds)\n")
 
     for pr in proxy_list:
         t = threading.Thread(target=check_proxy,args=(pr,))
         t.start()
         th.append(t)
 
-    
     for x in tqdm(range(len(th)), desc="Proxy Checking"):
         th[x].join()
+
 
     msg = f"PROXIES AVAILABLE => {len(content)}/{len(proxy_list)}" 
     
@@ -1103,6 +1103,24 @@ def ProxyLoader():
 
 try:
     if __name__ == '__main__':
+
+        def cls():
+            os.system('cls' if os.name=='nt' else 'clear')
+
+        def show_error(ctx):
+            return messagebox.showerror("Error",ctx)
+
+        def find_by_relative_path(relative_path):
+            base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+            return os.path.join(base_path, relative_path)
+
+        def open_discord():
+            webbrowser.open('https://discord.gg/GDMVrNF8Gr')
+
+        def close():
+            if messagebox.askokcancel("Exit", "Are you sure to close Crysis?"):
+                sys.exit()
+
         #movement and topmost variables
         check_topmost = 0
         motion_setting = 0
@@ -1118,14 +1136,12 @@ try:
         conf = ["config.json","settings.json"]
         assets = ["wall.gif","background.png","ds_logo.png","ico.png","terminal_ico.png","channels_ico.png","spam_ico.png","settings_ico.png", "server_ico.png","backup_ico.png","config_ico.png","roles_ico.png","nuker_ico.png","black_line.png","notification_ico.png","loading.gif","ico.ico"]
 
-
         folders = ["bin","bin\\backups\\","bin\\conf\\","bin\\assets\\", "bin\\tools"]
         pointer = 2
 
-
         CHECK = [folders,conf,assets]
 
-        print("CHECKING ASSETS...\n")
+        print("\n\n[/] Checking assets...\n")
 
         for ch in CHECK:
             if len(ch) == 5:
@@ -1154,7 +1170,8 @@ try:
                 
                 pointer+=1
 
-        print("\n\nCheck over\n\n")
+        cls()
+        print("\n\n[+] Check over\n")
         
         #PATHS   
         backup_folder = folders[1]
@@ -1224,20 +1241,6 @@ try:
             
             else:
                 return False
-
-        def show_error(ctx):
-            return messagebox.showerror("Error",ctx)
-
-        def find_by_relative_path(relative_path):
-            base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
-            return os.path.join(base_path, relative_path)
-
-        def open_discord():
-            webbrowser.open('https://discord.gg/GDMVrNF8Gr')
-
-        def close():
-            if messagebox.askokcancel("Exit", "Are you sure to close Crysis?"):
-                sys.exit()
 
         def clean_frames():
             for i in frame_list:
